@@ -5,5 +5,7 @@ module Types
     field :description, String, null: true
     field :image_url, String, null: true
     field :user, Types::UserType, null: false
+    field :category, String, null: true
+    field :year, Integer, null: true
   end
 end

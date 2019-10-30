@@ -16,26 +16,34 @@ john = User.create!(
         title: "Martian Chronicles",
         description: "Cult book by Ray Bradbury",
         user: john,
-        image_url: "https://upload.wikimedia.org/wikipedia/en/4/45/The-Martian-Chronicles.jpg"
+        image_url: "https://upload.wikimedia.org/wikipedia/en/4/45/The-Martian-Chronicles.jpg",
+        category: "modern",
+        year: 1971
       },
       {
         title: "The Martian",
         description: "Novel by Andy Weir about an astronaut stranded on Mars trying to survive",
         user: john,
-        image_url: "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Martian_2014.jpg"
+        image_url: "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Martian_2014.jpg",
+        category: "older",
+        year: 1966
       },
       {
         title: "Doom",
         description: "A group of Marines is sent to the red planet via an ancient " \
-                     "Martian portal called the Ark to deal with an outbreak of a mutagenic virus",
+        "Martian portal called the Ark to deal with an outbreak of a mutagenic virus",
         user: jane,
-        image_url: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg"
+        image_url: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+        category: "older",
+        year: 1974
       },
       {
         title: "Mars Attacks!",
         description: "Earth is invaded by Martians with unbeatable weapons and a cruel sense of humor",
         user: jane,
-        image_url: "https://upload.wikimedia.org/wikipedia/en/b/bd/Mars_attacks_ver1.jpg"
+        image_url: "https://upload.wikimedia.org/wikipedia/en/b/bd/Mars_attacks_ver1.jpg",
+        category: "space",
+        year: 1932
       }
     ]
   )
